@@ -4,9 +4,10 @@ let lap3 = 36;
 
 // Create a function that logs out the sum of all the lap times
 
-function sum() {
-  let totatlTime = lap1 + lap2 + lap3;
-  console.log(totatlTime);
+function totalTime() {
+  let fullTime = lap1 + lap2 + lap3;
+  return fullTime;
 }
 
-sum();
+console.log(totalTime());
+totalTime();
