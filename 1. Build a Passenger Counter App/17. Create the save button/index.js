@@ -9,6 +9,5 @@ function increment() {
 function save() {
   console.log(count);
 }
-save();
 
 // 1. Create a function, save(), which logs out the count when it's called

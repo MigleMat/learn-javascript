@@ -6,8 +6,8 @@
 
 let name = "Migle";
 
-let greeting = "Hi, my name is Migle";
+let greeting = "Hy, my name is ";
 
-let myGreeting = name + ", " + greeting + "!";
+let myGreeting = greeting + name;
 
 console.log(myGreeting);

@@ -5,10 +5,10 @@
 
 // Render the welcome message using welcomeEl.innerText
 
-let welcomeEL = document.getElementById("welcome-el");
+let welcomeEl = document.getElementById("welcome-el");
 
-let name = "Migle Matiukaite";
+let name = "Migle";
 
 let greeting = "Welcome back ";
 
-welcomeEL.innerText = greeting + name;
+welcomeEl.innerText = greeting + name;
